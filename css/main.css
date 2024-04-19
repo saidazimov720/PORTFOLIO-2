@@ -36,3 +36,11 @@ body{
     font-family: raleway-c;
     overflow-x: hidden;
 }
+
+.hero{
+    width: calc(var(--index) * 36);
+    position: absolute;
+    left: 37vw;
+    top: 22vw;
+    z-index: -1;
+}
