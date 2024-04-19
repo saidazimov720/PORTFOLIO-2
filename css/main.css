@@ -10,3 +10,13 @@
     --color-text: #cdc6c3;
     --gallery-gap: calc(var(--index) * 7.5)
 }
+
+@font-face {
+    font-family: raleway-c;
+    src: url(../fonts/raleway-regular.woff2);
+}
+
+@font-face {
+    font-family: outfit-c;
+    src: url(../fonts/outfit-regular.woff2);
+}
