@@ -60,3 +60,14 @@ body{
     bottom: 12vh;
     line-height: .9;
 }
+
+.gallery{
+    display: flex;
+    padding: calc(var(--index)*8) 0;
+}
+
+.gallery > *{
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
